@@ -12,15 +12,15 @@ const Navbar = () => {
 
   return (
     <nav className='bg-transparent'>
-      <div className=' max-w-7xl mx-auto p-4 sm:px-6 lg:px-8'>
+      <div className=' max-w-7xl mx-auto px-4 py-4 sm:px-6 sm:py-10 lg:px-8'>
         <div className='flex justify-between items-center w-full'>
           <div className=''>
             <Link href='/'>
               <Image
-                src='/logo.png'
+                src='/logo.svg'
                 alt='logo'
-                height={200}
-                width={200}
+                height={250}
+                width={250}
                 className='transition-all hover:scale-105'
               />
             </Link>
@@ -29,25 +29,25 @@ const Navbar = () => {
           <div className='hidden md:flex gap-8 items-center'>
             <Link
               href='/'
-              className='transition-all hover:font-bold hover:text-violet-700'
+              className='transition-all hover:font-bold hover:text-violet-700 text-xl'
             >
               Home
             </Link>
             <Link
               href='/'
-              className='transition-all hover:font-bold hover:text-violet-700'
+              className='transition-all hover:font-bold hover:text-violet-700 text-xl'
             >
               About Me
             </Link>
             <Link
               href='/'
-              className='transition-all hover:font-bold hover:text-violet-700'
+              className='transition-all hover:font-bold hover:text-violet-700 text-xl'
             >
               Projects
             </Link>
             <Link
               href='/contact'
-              className='transition-all hover:font-bold hover:text-violet-700'
+              className='transition-all hover:font-bold hover:text-violet-700 text-xl'
             >
               Contact
             </Link>

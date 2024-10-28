@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -5,44 +6,36 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer>
-      <div className='bg-neutral-900 max-w-100vw mx-auto p-4 sm:px-6 lg:px-8 text-center !mt-auto'>
-        <div className='flex flex-col max-w-[40rem] gap-3 justify-between mx-auto sm:px-6 lg:px-8 sm:flex-row'>
+      <div className='bg-[#151515] max-w-100vw mx-auto p-6 sm:px-8 lg:px-12 text-center !mt-auto'>
+        <div className='flex flex-col max-w-7xl gap-3 justify-between mx-auto sm:px-10 lg:px-18 sm:flex-row'>
           <div className='text-left'>
-            <p className='text-xl font-bold pb-2'>Contato</p>
-            <ul>
-              <li>
-                thiagolaranjeiramaciel@hotmail.com
-              </li>
-              <li>
-                +55 11 98513-8727
-              </li>
-              
-            </ul>
+            <Image src='/altlogo.svg' alt='altlogo' height={100} width={100} className='pb-2'/>
+            <p className='text-neutral-400'>Provided by Github</p>
           </div>
           <div className="text-left">
-            <p className='text-xl font-bold pb-2'>Site</p>
-            <ul>
+            <p className='text-xl font-bold pb-2 text-neutral-400'>Navigate</p>
+            <ul className='flex flex-col gap-3 sm:flex-row'>
               <li>
-                <Link href='/' className='transition-all hover:text-violet-700'>Home</Link>
+                <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Home</Link>
               </li>
               <li>
-                <Link href='/' className='transition-all hover:text-violet-700'>About me</Link>
+                <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>About me</Link>
               </li>
               <li>
-                <Link href='/' className='transition-all hover:text-violet-700'>Projects</Link>
+                <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Projects</Link>
               </li>
               <li>
-                <Link href='/' className='transition-all hover:text-violet-700'>Contact</Link>
+                <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Contact</Link>
               </li>
             </ul>
           </div>
           <div className="text-left">
-            <p className='text-xl font-bold pb-2'>Social Media</p>
+            <p className='text-xl font-bold pb-2 text-neutral-400'>Social Media</p>
             <ul className='flex column gap-2'>
               <li><Link
                 href='https://github.com/thiagolmaciel'
                 target='_blank'
-                className='transition-all hover:text-violet-700'
+                className='transition-all  text-neutral-400 hover:text-violet-700'
               >
                 <FaGithub size={24} className='hover:scale-110' />
               </Link></li>
@@ -50,7 +43,7 @@ const Footer = () => {
                 <Link
                   href='https://linkedin.com/in/thiagolmaciel'
                   target='_blank'
-                  className='transition-all hover:text-violet-700'
+                  className='transition-all text-neutral-400 hover:text-violet-700' 
                 >
                   <FaLinkedin size={24} className='hover:scale-110' />
                 </Link>
