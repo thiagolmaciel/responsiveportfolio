@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer>
-      <div className='bg-[#151515] max-w-100vw mx-auto p-6 sm:px-8 lg:px-12 text-center !mt-auto'>
-        <div className='flex flex-col max-w-7xl gap-3 justify-between mx-auto sm:px-10 lg:px-18 sm:flex-row'>
+      <div className='bg-[#151515] max-w-full mx-auto px-4 py-6 sm:px-6 sm:py-10 lg:px-8'>
+      <div className='flex flex-col max-w-7xl gap-8 justify-between  sm:flex-row sm:mx-auto sm:items-center'>
           <div className='text-left'>
             <Image src='/altlogo.svg' alt='altlogo' height={100} width={100} className='pb-2'/>
             <p className='text-neutral-400'>Provided by Github</p>

@@ -1,53 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{html,js}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      'blue': '#1fb6ff',
+      'purple': '#7e5bef',
+      'pink': '#ff49db',
+      'orange': '#ff7849',
+      'green': '#13ce66',
+      'yellow': '#ffc82c',
+      'gray-dark': '#273444',
+      'gray': '#8492a6',
+      'gray-light': '#d3dce6',
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
     extend: {
-      colors: {
-        green: {
-          50: '#30AF5B',
-          90: '#292C27',
-        },
-        gray: {
-          10: '#EEEEEE',
-          20: '#A2A2A2',
-          30: '#7B7B7B',
-          50: '#585858',
-          90: '#141414',
-        },
-        orange: {
-          50: '#FF814C',
-        },
-        blue: {
-          70: '#021639',
-        },
-        yellow: {
-          50: '#FEC601',
-        },
-      },
-      backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
-      },
-      screens: {
-        xs: '400px',
-        '3xl': '1680px',
-        '4xl': '2200px',
-      },
-      maxWidth: {
-        '10xl': '1512px',
+      spacing: {
+        '8xl': '96rem',
+        '9xl': '128rem',
       },
       borderRadius: {
-        '5xl': '40px',
-      },
-    },
+        '4xl': '2rem',
+      }
+    }
   },
-  plugins: [],
-};
+}

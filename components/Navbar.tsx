@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { FaBars, FaGithub, FaLinkedin } from 'react-icons/fa'
-import { GiHamburgerMenu } from 'react-icons/gi'
 import { ImCross } from 'react-icons/im'
 
 const Navbar = () => {
