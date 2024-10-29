@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <nav className='bg-transparent'>
+    <nav className='bg-[#111111] sticky top-0 z-[9999]'>
       <div className=' max-w-7xl mx-auto px-4 py-4 sm:px-6 sm:py-10 lg:px-8'>
         <div className='flex justify-between items-center w-full'>
           <div className=''>
@@ -33,13 +33,13 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href='/'
+              href='/aboutme'
               className='transition-all hover:font-bold hover:text-violet-700 text-xl'
             >
               About Me
             </Link>
             <Link
-              href='/'
+              href='/projects'
               className='transition-all hover:font-bold hover:text-violet-700 text-xl'
             >
               Projects
