@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <nav className='bg-[#111111] sticky top-0 z-[9999]'>
+    <nav className='bg-[#111111] sticky top-0 z-[9999] animate-fade-down'>
       <div className=' max-w-7xl mx-auto px-4 py-4 sm:px-6 sm:py-10 lg:px-8'>
         <div className='flex justify-between items-center w-full'>
           <div className=''>

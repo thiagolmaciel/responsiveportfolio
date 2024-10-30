@@ -6,6 +6,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
+  plugins: [
+    require('tailwindcss-animated')
+  ],
+
   theme: {
     // colors: {
     //   'blue': '#1fb6ff',
@@ -30,7 +35,7 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
-      }
+      },
     }
   },
 }
