@@ -20,7 +20,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="flex flex-col mt-8 gap-5 flex-wrap sm:w-[50rem] items-center justify-center animate-ease-in-out animate-fade-up">
+        <div className="flex flex-col sm:flex-row mt-8 gap-5 flex-wrap sm:w-[50rem] items-center justify-center animate-ease-in-out animate-fade-up">
           <Link href="https://www.discord.com" target="_blank">
             <div className="flex h-[5rem] w-[12rem] items-center justify-center gap-4 text-lg text-white rounded-lg bg-neutral-900 border-b border-violet-700 hover:border-b-[0.7rem] hover:scale-105 hover:-translate-y-2 transition-all">
               <FaDiscord size={30} />
