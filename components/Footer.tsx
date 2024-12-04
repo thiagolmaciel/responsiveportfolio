@@ -19,13 +19,13 @@ const Footer = () => {
                 <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Home</Link>
               </li>
               <li>
-                <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>About me</Link>
+                <Link href='/about-me' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>About me</Link>
               </li>
               <li>
-                <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Projects</Link>
+                <Link href='/projects' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Projects</Link>
               </li>
               <li>
-                <Link href='/' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Contact</Link>
+                <Link href='/contact' className='transition-all hover:text-violet-700 hover:font-bold text-neutral-400'>Contact</Link>
               </li>
             </ul>
           </div>

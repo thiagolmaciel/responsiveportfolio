@@ -33,7 +33,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href='/aboutme'
+              href='/about-me'
               className='transition-all hover:font-bold hover:text-violet-700 text-xl'
             >
               About Me
@@ -73,17 +73,40 @@ const Navbar = () => {
               className='flex items-center transition-all hover:text-violet-700'
             >
               {isOpen ? (
-                <FaBars size={24} className='hover:scale-110' />
-              ) : (
                 <ImCross size={24} className='hover:scale-90' />
+              ) : (
+                <FaBars size={24} className='hover:scale-110' />
               )}
             </button>
           </div>
         </div>
       </div>
-      <div>
-        <p>{isOpen}</p>
-      </div>
+      {isOpen && (
+        <div className="md:hidden">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <Link href="/">
+              <p className="block px-3 py-2 rounded-md text-base font-medium hover:bg-neutral-900">
+                Home
+              </p>
+            </Link>
+            <Link href="/about-me">
+              <p className="block px-3 py-2 rounded-md text-base font-medium hover:bg-neutral-900">
+                About me
+              </p>
+            </Link>
+            <Link href="/projects">
+              <p className="block px-3 py-2 rounded-md text-base font-medium hover:bg-neutral-900">
+                Projects
+              </p>
+            </Link>
+            <Link href="/contact">
+              <p className="block px-3 py-2 rounded-md text-base font-medium hover:bg-neutral-900">
+                Contact
+              </p>
+            </Link>
+          </div>
+        </div>
+      )}
     </nav>
   )
 }
