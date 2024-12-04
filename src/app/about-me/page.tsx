@@ -1,14 +1,10 @@
 import Link from "next/link";
-import { BiLogoGithub } from "react-icons/bi";
-import { BsGithub } from "react-icons/bs";
-import { FaArrowRight, FaCss3, FaDatabase, FaGit, FaGitAlt, FaHtml5, FaJava, FaReact } from "react-icons/fa";
-import { GoCodeReview } from "react-icons/go";
-import { IoIosRocket, IoLogoCss3, IoLogoJavascript } from "react-icons/io";
-import { IoCodeSlash } from "react-icons/io5";
+import { FaDatabase, FaGitAlt, FaHtml5, FaJava, FaReact } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
 import { PiFileCppFill } from "react-icons/pi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiJavascript, SiMysql, SiPhp } from "react-icons/si";
-import { TbFileCode, TbLetterC } from "react-icons/tb";
+import { SiJavascript, SiPhp } from "react-icons/si";
+import { TbFileCode } from "react-icons/tb";
 
 export default function Home() {
   return (

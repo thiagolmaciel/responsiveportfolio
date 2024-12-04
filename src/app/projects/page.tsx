@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { FaExclamation } from "react-icons/fa"
 import { IoIosWarning } from "react-icons/io"
 
 function Projects() {

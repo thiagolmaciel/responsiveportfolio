@@ -1,9 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
-import { BsFillTelephoneFill } from "react-icons/bs"
-import { FaDiscord, FaExclamation, FaFire, FaGithub, FaKeyboard, FaLinkedin, FaWhatsapp } from "react-icons/fa"
-import { IoIosWarning } from "react-icons/io"
-import { IoCellular } from "react-icons/io5"
+import { FaDiscord, FaGithub, FaKeyboard, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
 
 function Contact() {

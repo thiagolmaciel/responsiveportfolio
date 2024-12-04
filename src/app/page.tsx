@@ -3,12 +3,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Image from "next/image";
 import Link from "next/link";
-import { BsGithub } from "react-icons/bs";
-import { FaArrowRight, FaCss3, FaDatabase, FaHtml5, FaReact } from "react-icons/fa";
-import { IoIosRocket, IoLogoCss3, IoLogoJavascript } from "react-icons/io";
-import { PiFileCppFill } from "react-icons/pi";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiJavascript, SiMysql, SiPhp } from "react-icons/si";
+
 
 const BgImage = () => {
   const svg = useRef(null);
